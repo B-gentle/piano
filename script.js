@@ -77,7 +77,11 @@ function handleClick(key) {
 };
 
 function buttonAnimation(currentKey) {
-    console.log(currentKey);
-    currentKey.className.add("pressed");
+    let activeButton = document.querySelector("[data-key =" + currentKey + "]");
+    activeButton.classList.add("pressed");
+
+    setTimeout(()=>{
+        activeButton.classList.remove("pressed");
+    }, 100)
     
 };
