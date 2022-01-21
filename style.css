@@ -3,14 +3,14 @@ body{
     margin: 0;
 }
 
-ul{
+/* ul{
     list-style: none;
     text-decoration: none;
 }
 
 .sidebar{
     position: fixed;
-}
+} */
 
 .container{
     /* display: flex; */
