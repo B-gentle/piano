@@ -73,6 +73,11 @@ function handleClick(key) {
             audio12.play();
             break;
 
+        case "key13":
+            let audio13 = new Audio("sounds/key13.mp3");
+            audio13.play();
+            break;
+
     };
 };
 
